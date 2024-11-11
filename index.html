@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="Styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="card">
+    <br>
+    <br>
+    <div class="welcome-message">
+      <img src="https://thumbs.dreamstime.com/b/smiling-sun-illustration-character-34434947.jpg" alt="Sun Icon" class="cat-icon"> <!-- Replace with actual cat icon URL -->
+      <h3>Welcome to my Weather App. Hope you've had a great day!</h3>
+    </div>
+    <br>
+    <br>
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button>
+        <img src="https://thumbs.dreamstime.com/b/cartoon-little-star-vector-illustration-design-element-43670778.jpg" alt="Search">
+      </button>
+    </div>
+    <br>
+    <div class="loader" id="loader" style="display:none;"></div> <!-- Loader -->
+    <div class="weather">
+      <img src="https://cdn-icons-png.freepik.com/256/7284/7284329.png?semt=ais_hybrid" class="weather-icon" alt="Weather Icon">
+      <h1 class="temp">18°C</h1>
+      <h2 class="city">New Delhi</h2>
+      <div class="details">
+        <div class="col">
+          <img src="https://static-00.iconduck.com/assets.00/humidity-icon-512x419-5m7ztixz.png" alt="Humidity Icon">
+          <div>
+            <p class="humidity">60%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="funny-quote">
+            <p>"The weather is like a politician: always changing and never really reliable."
+
+            </p>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="https://d29fhpw069ctt2.cloudfront.net/icon/image/83111/preview.svg" alt="Wind Speed Icon">
+          <div>
+            <p class="wind">15 kmph</p>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
